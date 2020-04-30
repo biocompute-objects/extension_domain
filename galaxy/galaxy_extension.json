@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://www.w3id.org/biocompute/1.3.0/schemas/extension_domain/galaxy_extension.json",
+    "type": "object",
+    "required": [
+        "galaxy_url",
+        "galaxy_version"
+    ],
+    "properties": {
+        "galaxy_url": {
+            "type": "string",
+            "examples": [
+                "https://galaxy.aws.biochemistry.gwu.edu/"
+            ],
+            "format": "uri"
+        },
+        "galaxy_version": {
+            "type": "string",
+            "examples": [
+                "20.01"
+            ]
+        }
+    }
+}
