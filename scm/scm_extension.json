@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://w3id.org/biocompute/extension_domain/master/scm/scm_extension.json",
+    "$id": "https://w3id.org/biocompute/extension_domain/main/scm_extension.json",
     "type": "object",
     "required": [
         "scm_repository",

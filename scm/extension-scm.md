@@ -4,7 +4,7 @@ The external references **example** extension to a SCM repository demonstrates h
 
 ```json
     "extension_domain":{
-        "extension_schema": "https://w3id.org/biocompute/extension_domain/master/scm/scm_extension.json",
+        "extension_schema": "https://w3id.org/biocompute/extension_domain/main/scm/scm_extension.json",
         "scm_extension": {
             "scm_repository": "https://github.com/example/repo1",
             "scm_type": "git",
