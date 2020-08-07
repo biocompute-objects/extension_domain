@@ -4,7 +4,7 @@ The external references **example** extension to add additional licences.
 
 ```json
     "extension_domain":{
-        "extension_schema": "http://www.w3id.org/biocompute/extension_domain/main/license/license_extension.json",
+        "extension_schema": "http://www.w3id.org/biocompute/extension_domain/1.0.0/license/license_extension.json",
         "licence_extension": {
             "data_license": "https://github.com/example/repo1",
             "scripts_license": "https://github.com/example/repo2"

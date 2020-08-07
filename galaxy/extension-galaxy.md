@@ -4,7 +4,7 @@ The external references **example** extension to list dataset catagories .
 
 ```json
     "extension_domain":{
-        "extension_schema": "http://www.w3id.org/biocompute/extension_domain/main/galaxy/galaxy_extension.json",
+        "extension_schema": "http://www.w3id.org/biocompute/extension_domain/1.0.0/galaxy/galaxy_extension.json",
         "galaxy_extension": {
             "galaxy_url":  "https://galaxy.aws.biochemistry.gwu.edu/",
             "galaxy_version":  "20.01"

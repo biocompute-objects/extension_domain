@@ -9,7 +9,7 @@ SMART on FHIR Genomics provides a framework for EHR-based apps built on FHIR tha
 
 ```json
     "extension_domain":{
-        "extension_schema": "https://w3id.org/biocompute/extension_domain/main/fhir/fhir_extension.json",
+        "extension_schema": "https://w3id.org/biocompute/extension_domain/1.0.0/fhir/fhir_extension.json",
         "fhir_extension": [
             {
                 "fhir_endpoint": "http://fhirtest.uhn.ca/baseDstu3",

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://w3id.org/biocompute/extension_domain/main/fhir/fhir_extension.json",
+    "$id": "https://w3id.org/biocompute/extension_domain/1.0.0/fhir/fhir_extension.json",
     "type": "object",
     "required": [
         "fhir_endpoint",

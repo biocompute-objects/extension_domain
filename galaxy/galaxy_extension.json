@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "http://www.w3id.org/biocompute/extension_domain/main/galaxy/galaxy_extension.json",
+    "$id": "http://www.w3id.org/biocompute/extension_domain/1.0.0/galaxy/galaxy_extension.json",
     "type": "object",
     "required": [
         "galaxy_url",
