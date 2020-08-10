@@ -3,23 +3,21 @@
     "$id": "http://www.w3id.org/biocompute/extension_domain/1.0.0/dataset/dataset_extension.json",
     "type": "object",
     "required": [
-        "data_license",
-        "scripts_license"
+        "category_value",
+        "category_name"
     ],
     "properties": {
-        "data_license": {
+        "category_value": {
             "type": "string",
             "examples": [
-                "https://github.com/example/repo1"
-            ],
-            "format": "uri"
+                "Homo sapiens"
+            ]
         },
-        "scripts_license": {
+        "category_name": {
             "type": "string",
             "examples": [
-                "https://github.com/example/repo1"
-            ],
-            "format": "uri"
+                "species"
+            ]
         }
     }
 }
