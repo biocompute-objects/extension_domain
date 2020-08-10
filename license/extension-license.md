@@ -1,6 +1,6 @@
-# Extension to External References: Additional Licences 
+# Extension to External References: Additional Licenses 
 
-The external references **example** extension to add additional licences.
+The external references **example** extension to add additional licenses.
 
 ```json
     "extension_domain":{
