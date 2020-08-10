@@ -13,8 +13,8 @@ The external references **example** extension to list dataset catagories .
 ```
 ##Data License "data_license"
 
-The base url for the licence assigned to the data.
+The base url for the license assigned to the data.
 
 ## Scripts License "scripts_license"
 
-The base url for the licence assigned to the associated scripts.
+The base url for the license assigned to the associated scripts.
