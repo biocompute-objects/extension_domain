@@ -35,7 +35,7 @@
             }
         ]
     }
-``
+```
 
 ## **additional_license**
 The additional license property contains the details about the licenses applied to the dataset and the script or tool/software used to process the given dataset. Licenses ensure the permissions are clear to use, modify, and share one’s work by other users.
