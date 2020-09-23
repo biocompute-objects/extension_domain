@@ -1,5 +1,6 @@
 # Extension to External References: Additional Licenses and Dataset Catagories
 
+The external references example extension to list additional licenses and dataset catagories .
 ```json
     "extension_schema": "http://www.w3id.org/biocompute/extension_domain/1.0.0/dataset/dataset_extension.json",
     
