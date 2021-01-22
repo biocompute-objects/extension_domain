@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://w3id.org/biocompute/extension_domain/1.1.0/scm/scm_extension.json",
+    "title": "scm_extension",
     "type": "object",
     "description": "The external references extension to a SCM repository",
     "required": ["scm_extension", "extension_schema"],
