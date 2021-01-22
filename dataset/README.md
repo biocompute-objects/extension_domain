@@ -3,8 +3,9 @@
 The external references example extension to list additional licenses and dataset catagories .
 ```json
     
-"extension_domain": {
-    "extension_schema": "http://www.w3id.org/biocompute/extension_domain/1.0.0/dataset/dataset_extension.json",
+"extension_domain": [
+{
+    "extension_schema": "http://www.w3id.org/biocompute/extension_domain/1.1.0/dataset/dataset_extension.json",
     "dataset_extension": {
         "additional_license": {
             "data_license": "https://creativecommons.org/licenses/by/4.0/",
@@ -38,6 +39,7 @@ The external references example extension to list additional licenses and datase
         ]
     }
 }
+]
 ```
 
 ## **additional_license**

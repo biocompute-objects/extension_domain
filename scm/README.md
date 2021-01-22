@@ -3,8 +3,9 @@
 The external references **example** extension to a SCM repository demonstrates how a BioCompute Object software source code can be stored/deposited/downloaded. The BCO would contain links to the SCM repository where the information is stored and easily retrieved. The links to the SCM can be added to the usability domain as well.
 
 ```json
-    "extension_domain":{
-        "extension_schema": "https://w3id.org/biocompute/extension_domain/1.0.0/scm/scm_extension.json",
+"extension_domain":[
+    {
+        "extension_schema": "https://w3id.org/biocompute/extension_domain/1.1.0/scm/scm_extension.json",
         "scm_extension": {
             "scm_repository": "https://github.com/example/repo1",
             "scm_type": "git",
@@ -13,6 +14,7 @@ The external references **example** extension to a SCM repository demonstrates h
             "scm_preview": "https://github.com/example/repo1/blob/c9ffea0b60fa3bcf8e138af7c99ca141a6b8fb21/workflow/hive-viral-mutation-detection.cwl"
         }
     }
+]
 ```
 ## SCM Repository "scm_repository"
 

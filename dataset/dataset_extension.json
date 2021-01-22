@@ -4,7 +4,7 @@
     "title": "dataset_extension",
     "type": "object",
     "description": "The external references extension to list additional licenses and dataset catagories for a dataset BCO (dsBCO).",
-    "required": ["dataset_extension"],
+    "required": ["dataset_extension", "extension_schema"],
     "additionalProperties": false,
     "properties": {
         "dataset_extension": {
@@ -71,6 +71,16 @@
                     }
                 }
             }
-        }
+        },
+		"extension_schema": {
+            "title": "extension_schema",
+            "type": "string",
+			"format": "uri",
+            "description": "The schema applied to the extension object",
+            "examples": [
+                "http://www.w3id.org/biocompute/extension_domain/example.json"
+            ]
+			
+		}
     }
 }

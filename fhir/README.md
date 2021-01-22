@@ -8,37 +8,39 @@ The link to FHIR can also be added to the usability domain.  More on FHIR Genomi
 SMART on FHIR Genomics provides a framework for EHR-based apps built on FHIR that integrate clinical and genomic information. For more information on how to use the SMART on FHIR Genomics apps, please visit http://projects.iq.harvard.edu/smartgenomics/.   
 
 ```json
-    "extension_domain":{
-        "extension_schema": "https://w3id.org/biocompute/extension_domain/1.0.0/fhir/fhir_extension.json",
-        "fhir_extension": [
-            {
-                "fhir_endpoint": "http://fhirtest.uhn.ca/baseDstu3",
-                "fhir_version": "3",
-                "fhir_resources": [
-                    {
-                        "fhir_resource": "Sequence",
-                        "fhir_id": "21376"
-                    },
-                    {
-                        "fhir_resource": "DiagnosticReport",
-                        "fhir_id": "6288583"
-                    },
-                    {
-                        "fhir_resource": "ProcedureRequest",
-                        "fhir_id": "25544"
-                    },
-                    {
-                        "fhir_resource": "Observation",
-                        "fhir_id": "92440"
-                    },
-                    {
-                        "fhir_resource": "FamilyMemberHistory",
-                        "fhir_id": "4588936"
-                    }
-                ]
-            }
-        ]
-    }
+    "extension_domain":[
+        {
+            "extension_schema": "https://w3id.org/biocompute/extension_domain/1.1.0/fhir/fhir_extension.json",
+            "fhir_extension": [
+                {
+                    "fhir_endpoint": "http://fhirtest.uhn.ca/baseDstu3",
+                    "fhir_version": "3",
+                    "fhir_resources": [
+                        {
+                            "fhir_resource": "Sequence",
+                            "fhir_id": "21376"
+                        },
+                        {
+                            "fhir_resource": "DiagnosticReport",
+                            "fhir_id": "6288583"
+                        },
+                        {
+                            "fhir_resource": "ProcedureRequest",
+                            "fhir_id": "25544"
+                        },
+                        {
+                            "fhir_resource": "Observation",
+                            "fhir_id": "92440"
+                        },
+                        {
+                            "fhir_resource": "FamilyMemberHistory",
+                            "fhir_id": "4588936"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 ```
 
 ## FHIR Extension "fhir_extension"
