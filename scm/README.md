@@ -16,6 +16,7 @@ The external references **example** extension to a SCM repository demonstrates h
     }
 ]
 ```
+
 ## SCM Repository "scm_repository"
 
 The base url for the SCM repository.

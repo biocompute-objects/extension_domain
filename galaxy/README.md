@@ -13,6 +13,7 @@ The external references **example** extension for a Galaxy BCO.
     }
 ]
 ```
+
 ##Galaxy URL "galaxy_url"
 
 The base url for the galaxy instance used to create the BioCompute Object.
