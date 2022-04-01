@@ -1,4 +1,4 @@
-# Extension to External References: Additional Licenses 
+# Extension to External References: Additional Licenses
 
 The external references **example** extension to add additional licenses.
 
@@ -13,6 +13,7 @@ The external references **example** extension to add additional licenses.
     }
 ]
 ```
+
 ##Data License "data_license"
 
 The base url for the licence assigned to the data.
